@@ -75,7 +75,7 @@ Sensor → Raspberry Pi → Processing → Web Dashboard → Alert
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
+git clone https://github.com/SRECONICS/Transformer-Temperature-Monitoring-System-using-Raspberry-PI-4.git
 cd repo-name
 
 python3 -m venv myenv
