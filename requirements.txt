@@ -1,0 +1,4 @@
+flask
+adafruit-circuitpython-mlx90614
+adafruit-blinka
+RPi.GPIO
