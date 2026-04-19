@@ -1,0 +1,14 @@
+[Unit]
+Description=Temperature Monitoring System
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi
+Environment="PATH=/home/pi/myenv/bin"
+ExecStart=/home/pi/myenv/bin/python /home/pi/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
